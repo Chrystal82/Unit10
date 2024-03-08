@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Unit 10 Assignment</title>
 </head>
 <body>
 <script>
+
+//*********************************************************
+//****Assignment 10 Section 1
+//*********************************************************
     
     class scoreKeeper
 {   
@@ -100,9 +104,7 @@ listAllScores()
 //*********************************************************
 //****Assignment 10 Section 2
 //*********************************************************
-//*** Inherited class baseball which defines the functionality to handle the additional values
-//*** needed to manage a game of baseball. (innings, outs, strikes, fouls, and balls
-//*** This does not keep up with stats.
+
 class baseball extends scoreKeeper
 {
     constructor(team1, team2)
@@ -191,6 +193,7 @@ getBalls()
 //****Assignment 10 Section 3
 //*********************************************************
 //*** Testing the Base Class
+
 console.log("Assignment 10 - Classes and Inheritance");
 console.log(" ");
 console.log("Section 3: Base Class Results After Adding");
@@ -220,6 +223,7 @@ console.log(" ");
 //****Assignment 10 Section 4
 //*********************************************************
 //*** Testing the Derived Class
+
 console.log("Section 4: Derived Class Results: Baseball scoring");
 console.log(" ");
 const gameTwo = new baseball("Cubs", "Braves");
